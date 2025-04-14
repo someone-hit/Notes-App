@@ -31,7 +31,7 @@ input {
     margin-left: 86px;
 }
 input::placeholder{
-    color: white
+    color:rgb(156, 146, 146)
 }
 
 .box{
