@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1 class="container">My Notes App📝</h1>
+    <div class="box container">
+        <div class="category-box">
+
+            <input class="title-input" type="text" placeholder="Note Title">
+            
+            <select class="category-select">
+                <option class="easy" value="easy">Easy</option>
+                <option class="medium" value="medium">Medium</option>
+                <option class="hard" value="hard">Hard</option>
+            </select>
+
+        </div>
+        
+
+        
+        <textarea class="note-details" name="" id="" placeholder="Note Details"></textarea>
+        
+        <select class="filter-select">
+            <option value="all">All</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <button class="add-btn">Add Note</button>
+    </div>
+
+    <div class="notes-box container">
+        <h2>Your Notes📝</h3>
+         
+            <input class="search-input " type="text" placeholder="Search Notes...">
+         <p class="line"></p>
+
+         <ul class="list-box">
+           
+         </ul>
+    </div>
+    
+    <script src="./note.js"></script>
+</body>
+</html>
